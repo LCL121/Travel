@@ -2,7 +2,7 @@
   <div>
     <div class="title">热销推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl" />
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'Recommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: '//img1.qunarzz.com/sight/p0/1704/71/71a3d23c24494bd2a3.water.jpg_256x160_d5bc3624.jpg',
-        title: '南浔古镇',
-        desc: '水乡古镇九十九，不如南浔走一走'
-      }, {
-        id: '0002',
-        imgUrl: '//img1.qunarzz.com/sight/p0/2003/67/67bbc7459b9ad316a3.water.jpg_256x160_20e226f2.jpg',
-        title: '杭州宋城',
-        desc: '杭州宋城是中国大陆人气超旺的主题公园'
-      }, {
-        id: '0003',
-        imgUrl: '//img1.qunarzz.com/sight/p0/201405/27/8211cadd5d9fefeaa044c5b7eefc695d.jpg_256x160_5d730aee.jpg',
-        title: '千岛湖',
-        desc: '亲近大自然，放飞心情'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
