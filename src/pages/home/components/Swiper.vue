@@ -1,10 +1,22 @@
 <template>
   <div class="wrapper">
-    <swiper :options="swiperOption" v-if="showSwiper">
-      <swiper-slide v-for="item of list" :key="item.id">
-        <img class="swiper-img" :src="item.imgUrl" />
+    <swiper
+      :options="swiperOption"
+      v-if="showSwiper"
+    >
+      <swiper-slide
+        v-for="item of list"
+        :key="item.id"
+      >
+        <img
+          class="swiper-img"
+          :src="item.imgUrl"
+        />
       </swiper-slide>
-      <div class="swiper-pagination" slot="pagination"></div>
+      <div
+        class="swiper-pagination"
+        slot="pagination"
+      ></div>
       <!-- 左箭头
     <div class="swiper-button-prev" slot="button-prev"></div>
     右箭头
