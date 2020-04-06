@@ -28,9 +28,9 @@ export default {
 @import '~styles/mixins.styl'
 .title
   padding .1rem 0
-  line-height 0.4rem
+  line-height .4rem
   background #ccc
-  text-indent 0.2rem
+  text-indent .2rem
 .item-img-wrapper
   overflow hidden
   height 0
@@ -38,13 +38,13 @@ export default {
 .item-img
   width 100%
 .item-info
-  padding 0.1rem
+  padding .1rem
   .item-title
-    line-height 0.54rem
-    font-size 0.32rem
+    line-height .54rem
+    font-size .32rem
     ellipsis()
   .item-desc
-    line-height 0.4rem
+    line-height .4rem
     color #ccc
     ellipsis()
 </style>

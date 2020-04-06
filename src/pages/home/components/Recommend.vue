@@ -26,10 +26,10 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/mixins.styl'
 .title
-  margin-top 0.2rem
-  line-height 0.4rem
+  margin-top .2rem
+  line-height .4rem
   background #ccc
-  text-indent 0.2rem
+  text-indent .2rem
   padding .1rem 0
 .item
   display flex
@@ -37,24 +37,24 @@ export default {
   overflow hidden
   .item-img
     height 1.7rem
-    padding 0.1rem
+    padding .1rem
   .item-info
     min-width 0
     flex 1
-    padding 0.1rem
+    padding .1rem
     .item-title
-      line-height 0.54rem
-      font-size 0.32rem
+      line-height .54rem
+      font-size .32rem
       ellipsis()
     .item-desc
-      line-height 0.4rem
+      line-height .4rem
       color #ccc
       ellipsis()
     .item-button
-      line-height 0.44rem
-      margin-top 0.16rem
+      line-height .44rem
+      margin-top .16rem
       background #ff9300
-      padding 0 0.2rem
-      border-radius 0.06rem
+      padding 0 .2rem
+      border-radius .06rem
       color #fff
 </style>

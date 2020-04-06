@@ -53,7 +53,7 @@ export default {
   height 0
   padding-bottom 50%
 .icons
-  margin-top 0.1rem
+  margin-top .1rem
   .icon
     position relative
     overflow hidden
@@ -66,9 +66,9 @@ export default {
       top 0
       left 0
       right 0
-      bottom 0.44rem
+      bottom .44rem
       box-sizing border-box
-      padding 0.1rem
+      padding .1rem
       .icon-img-content
         display block
         margin 0 auto
@@ -78,8 +78,8 @@ export default {
       left 0
       right 0
       bottom 0
-      height 0.44rem
-      line-height 0.44rem
+      height .44rem
+      line-height .44rem
       text-align center
       color $darkTextColor
       ellipsis()
