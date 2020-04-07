@@ -59,6 +59,9 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
+.border-bottom
+  &:before
+    border-color #ccc
 .search
   padding 0 .1rem
   height .72rem
