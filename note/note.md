@@ -36,5 +36,12 @@ Vue项目中一般不用a标签跳转，用router-link标签进行跳转
 style标签上加scoped属性
 ![](./img/5.png)
 
-样式穿透
+##样式穿透
 ![](./img/6.png)
+
+##vuex
+![](./img/7.png)
+
+![](./img/9.png)
+
+![](./img/8.png)
