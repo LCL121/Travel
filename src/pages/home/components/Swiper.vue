@@ -39,7 +39,8 @@ export default {
         pagination: '.swiper-pagination',
         loop: true,
         autoplay: 2000,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        paginationClickable: true
       }
     }
   },
@@ -52,8 +53,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.swiper-pagination >>> .swiper-pagination-bullet
+  opacity .5
 .wrapper >>> .swiper-pagination-bullet-active
   background #fff
+  opacity 1
 .wrapper
   overflow hidden
   width 100%

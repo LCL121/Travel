@@ -25,9 +25,13 @@ src/App.vue
 src/router/index.js
 ![](./img/2.png)
 
+![](./img/12.png)
+
 ##跳转页面
 
 Vue项目中一般不用a标签跳转，用router-link标签进行跳转
+
+![](./img/11.png)
 
 ##单页应用
 通过JS判断页面，如果页面跳转则清除组件再渲染上新的组件（JS渲染）
