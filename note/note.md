@@ -22,6 +22,8 @@ src/App.vue
 **当使用keep-alive的时候，会多出来一个，生命周期钩子activated，页面虽然不会再被重新渲染。但是页面再重新显示的时候，会执行activated生命周期钩子，可以通过这个再次发送ajax请求**
 ![](./img/10.png)
 
+![](./img/13.png)
+
 src/router/index.js
 ![](./img/2.png)
 
