@@ -45,10 +45,10 @@ export default {
       }
     }
   },
-  activated () {
+  mounted () {
     window.addEventListener('scroll', this.handleScroll)
   },
-  deactivated () {
+  unmounted () {
     window.removeEventListener('scroll', this.handleScroll)
   }
 }
@@ -63,8 +63,8 @@ export default {
   width .8rem
   height .8rem
   line-height .8rem
-  text-align center
   border-radius .4rem
+  text-align center
   background rgba(0, 0, 0, .8)
   .header-abs-back
     color #fff
@@ -83,8 +83,8 @@ export default {
   font-size .32rem
   .header-fixed-back
     position absolute
-    left 0
     top 0
+    left 0
     width .64rem
     text-align center
     font-size .4rem
