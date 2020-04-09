@@ -8,6 +8,8 @@ src/main.js
 
 tempalte模板里面向外暴露只能暴露一个根标签
 
+![](./img/15.png)
+
 **src/App.vue 是整个项目的根组件**
 
 整个项目只有static目录下的，可以被外部访问到，所有把本地用到的模拟数据都放在该目录下
@@ -19,8 +21,9 @@ tempalte模板里面向外暴露只能暴露一个根标签
 src/App.vue
 ![](./img/1.png)
 
-**当使用keep-alive的时候，会多出来一个，生命周期钩子activated，页面虽然不会再被重新渲染。但是页面再重新显示的时候，会执行activated生命周期钩子，可以通过这个再次发送ajax请求**
 ![](./img/10.png)
+
+![](./img/14.png)
 
 ![](./img/13.png)
 
@@ -34,6 +37,8 @@ src/router/index.js
 Vue项目中一般不用a标签跳转，用router-link标签进行跳转
 
 ![](./img/11.png)
+
+![](./img/16.png)
 
 ##单页应用
 通过JS判断页面，如果页面跳转则清除组件再渲染上新的组件（JS渲染）
